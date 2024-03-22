@@ -19,5 +19,5 @@
     "prettier.configPath": ".prettierrc.json",
     // https://github.com/microsoft/vscode-eslint/issues/701
     "javascript.format.enable": false,
-    "typescript.format.enable": false,
+    "typescript.format.enable": false
 }
