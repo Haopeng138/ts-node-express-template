@@ -1,19 +1,23 @@
 {
-  "files.autoSave": "afterDelay",
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.formatOnSave": true,
-  "editor.codeActionsOnSave": {
-    "source.organizeImports": "always",
-    "source.addMissingImports": "always",
-    "source.fixAll.eslint": "always"
-  },
-  "search.exclude": {
-    "**/node_modules": true,
-    "**/.vscode": true,
-    "**/dist": true
-  },
-  "editor.quickSuggestions": {
-    "strings": true
-  },
-  "explorer.fileNesting.enabled": true
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": "always",
+        "source.addMissingImports": "always",
+        "source.fixAll.eslint": "always"
+    },
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/.vscode": true,
+        "**/dist": true
+    },
+    "editor.quickSuggestions": {
+        "strings": true
+    },
+    "explorer.fileNesting.enabled": true,
+    "prettier.configPath": ".prettierrc.json",
+    // https://github.com/microsoft/vscode-eslint/issues/701
+    "javascript.format.enable": false,
+    "typescript.format.enable": false,
 }

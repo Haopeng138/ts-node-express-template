@@ -1,5 +1,5 @@
 {
     "ts-standard": {
-      "project": "./tsconfig.json"
+        "project": "./tsconfig.eslint.json"
     }
 }
